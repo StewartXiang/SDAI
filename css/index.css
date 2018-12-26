@@ -193,7 +193,6 @@ img{
 	width: 96px;
 	height: 96px;
 	transform: rotate(0deg);
-
 }
 .hiv{
 
@@ -205,6 +204,64 @@ img{
 	width: 140px;
 	height: 150px;
 	transform: rotate(20deg);
+	transition: all 30s linear;
+}
+#hiv1:hover{
+	/*animation: hiv_one_h 5s;*/
+	transform: rotate(10800deg);
+}
+@keyframes hiv_one_h{/*
+	0%{
+		position: absolute;
+		right: 118px;
+		top: 414px;
+		width: 140px;
+		height: 150px;
+		transform: rotate(20deg);
+	}25%{
+		position: absolute;
+		right: 118px;
+		top: 414px;
+		width: 140px;
+		height: 150px;
+		transform: rotate(110deg);
+	}50%{
+		position: absolute;
+		right: 118px;
+		top: 414px;
+		width: 140px;
+		height: 150px;
+		transform: rotate(200deg);
+	}75%{
+		position: absolute;
+		right: 118px;
+		top: 414px;
+		width: 140px;
+		height: 150px;
+		transform: rotate(290deg);
+	}100%{
+		position: absolute;
+		right: 118px;
+		top: 414px;
+		width: 140px;
+		height: 150px;
+		transform: rotate(20deg);
+	}*/
+	from{
+		position: absolute;
+		right: 118px;
+		top: 414px;
+		width: 140px;
+		height: 150px;
+		transform: rotate(20deg);
+	}to{
+		position: absolute;
+		right: 118px;
+		top: 414px;
+		width: 140px;
+		height: 150px;
+		transform: rotate(1080deg);
+	}
 }
 #hiv2{
 	position: absolute;
