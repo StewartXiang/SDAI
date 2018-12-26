@@ -462,6 +462,7 @@ a.navigation1:active {color: grey}
 	width: 409px;
 	height: 420px;
 	transform: rotate(0deg);
+	z-index: 1010;
 }
 #bbubble1_div{
 	position: absolute;
@@ -470,9 +471,10 @@ a.navigation1:active {color: grey}
 	width: 409px;
 	height: 420px;
 	transform: rotate(0deg);
-}
+	z-index: 1010;
+}/*
 #bbubble1:focus + 
-/*
+
 #bbubble1_div:focus::after{
 	content: url(../static/bubble_r.png);
     position: absolute;
@@ -481,13 +483,46 @@ a.navigation1:active {color: grey}
     height: 800px;
     z-index:1002;
 }*/
-#bbubble2{
+#bbubble2_div{
 	position: absolute;
 	left: 344px;
 	top: 18px;
 	width: 318px;
 	height: 314px;
 	transform: rotate(0deg);
+	z-index: 1000;
+}
+#bbubble2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 318px;
+	height: 314px;
+	transform: rotate(0deg);
+	opacity: 1.0;
+	z-index: 1005;
+	transition: all 0.5s;
+}
+#bbubble2 + div{
+	position: absolute;
+	left: 0px;
+	top: 80px;
+	height: 314px;
+	opacity: 0;
+	z-index: -1;
+	transition: all 0.5s;
+}
+#bbubble2 + div img{
+	position: relative;
+	width: 150px;
+}
+#bbubble2:focus{
+	opacity: 0;
+	z-index: -1;
+}
+#bbubble2:focus + div{
+	opacity: 1.0;
+	z-index: 1050;
 }
 #bbubble3{
 	position: absolute;
@@ -496,5 +531,4 @@ a.navigation1:active {color: grey}
 	width: 242px;
 	height: 234px;
 	transform: rotate(0deg);
-
 }
