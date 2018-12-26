@@ -159,13 +159,107 @@ img{
 	height: 70px;
 	transform: rotate(-20deg);
 }
-#needle1{
+#needle1_div{
 	position: absolute;
 	left: 30px;
 	top: 448px;
 	width: 60px;
 	height: 174px;
 	transform: rotate(20deg);
+	transition: all 5s;
+	z-index: 1001;
+}
+#needle1_div:focus{
+	/*animation: needle1_divh 5s;*/
+	/*position: absolute;
+	transform: rotate(90deg);
+	left: 430px;
+	top: 448px;
+	width: 60px;
+	height: 574px;*/
+}
+#needle1{
+	position: absolute;
+	left: 30px;
+	top: 448px;
+	width: 60px;
+	height: 174px;
+	transform: rotate(20deg);/*
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 60px;
+	height: 174px;*/
+}
+#needle1:focus{
+	animation: needle1_divh 5s;
+}
+@keyframes needle1_divh{
+	0%{
+		position: absolute;
+		transform: rotate(20deg);
+		left: 30px;
+		top: 448px;
+		width: 60px;
+		height: 174px;
+		z-index: 1001;
+	}15%{
+		position: absolute;
+		transform: rotate(90deg);
+		left: 30px;
+		top: 448px;
+		width: 60px;
+		height: 174px;
+		z-index: 1001;
+	}40%{
+		position: absolute;
+		transform: rotate(90deg);
+		left: 1030px;
+		top: 448px;
+		width: 60px;
+		height: 174px;
+		z-index: 1001;
+	}50%{
+		position: absolute;
+		transform: rotate(90deg);
+		left: 1050px;
+		top: 458px;
+		width: 80px;
+		height: 154px;
+		z-index: 1001;
+	}55%{
+		position: absolute;
+		transform: rotate(90deg);
+		left: 1050px;
+		top: 458px;
+		width: 80px;
+		height: 154px;
+		z-index: 1001;
+	}60%{
+		position: absolute;
+		transform: rotate(90deg);
+		left: 1030px;
+		top: 448px;
+		width: 60px;
+		height: 174px;
+		z-index: 1001;
+	}85%{
+		position: absolute;
+		transform: rotate(90deg);
+		left: 30px;
+		top: 448px;
+		width: 60px;
+		height: 174px;
+		z-index: 1001;
+	}100%{
+		position: absolute;
+		transform: rotate(20deg);
+		left: 30px;
+		top: 448px;
+		width: 60px;
+		height: 174px;
+		z-index: 1001;
+	}
 }
 #needle2{
 	position: absolute;
