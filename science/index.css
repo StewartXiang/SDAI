@@ -1,0 +1,44 @@
+body{
+		font-family: "AaWanWan";
+			background: url(images/bg.png);
+			width: 1400px;
+			height: 2000
+			margin: 0;
+			border: 0;
+			padding: 0;
+	}
+	.heado{
+			width: 1400px;
+			height: 100px;
+
+		}
+		#logo{
+			height: 77px;
+			width: 223px;
+			background-image: url(images/logo.png);
+			margin:  8px 0 0 40px;
+			background-repeat: no-repeat;
+			float: left;
+		}
+
+		.guide{
+			float:right;
+			height:100px;
+			width: 1000px; 
+			background-image: url(images/guidebg.png);
+			background-repeat: no-repeat;
+			text-align: left;
+			margin-left:0px;
+			padding:0 120 0 0px ;
+			border:0;
+			font-size: 33px;	
+		}
+		
+		.headline{
+			margin-top: 50px;
+			width: 1440px;
+			height: 5px;
+			background-image: url(images/headline.png);
+			clear: both;
+		}
+		
