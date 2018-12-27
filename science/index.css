@@ -1,9 +1,9 @@
 body{
 		font-family: "AaWanWan";
 			background: url(images/bg.png);
-			width: 1400px;
-			height: 2000
-			margin: 0;
+			width: 1366px;
+			/*height: 2000;*/
+			margin: auto;
 			border: 0;
 			padding: 0;
 	}
@@ -38,8 +38,11 @@ body{
 			margin-top: 50px;
 			width: 1440px;
 			height: 5px;
-			background-image: url(images/headline.png);
+	/*		background-image: url(images/headline.png);*/
 			clear: both;
+			border-style: solid;
+			border-width: 0px 0px 4px;
+			border-color: #F7B5AB;
 		}
 		.breadcrum{
 			background-image: url(images/breadcrumbg.png);
@@ -75,7 +78,7 @@ body{
 
 		.content_heading{
 			text-align: center;
-			width: 600px;
+			width: 620px;
 			height: 45px;
 			margin-top: 50px;
 			font-size: 40px;
@@ -157,3 +160,22 @@ body{
 			font-size: 25px;
 			float: left;			
 		}
+
+
+
+
+a{text-decoration: none;}
+a.content:link {color: grey}
+a.content:visited {color: black}
+a.content:hover {color: grey}
+a.content:active {color: rgb(255,2,83)}
+
+a.navigation1:link {color: grey}
+a.navigation1:visited {color: black}
+a.navigation1:hover {color: white}
+a.navigation1:active {color: grey}
+
+a.navigation:link {color: grey}
+a.navigation:visited {color: black}
+a.navigation:hover {color: white}
+a.navigation:active {color: lightgrey}
