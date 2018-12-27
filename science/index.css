@@ -41,4 +41,105 @@ body{
 			background-image: url(images/headline.png);
 			clear: both;
 		}
+		.breadcrum{
+			background-image: url(images/breadcrumbg.png);
+			height:50px;
+			width: 1266px; 
+			background-repeat: no-repeat;
+			text-align: left;
+			margin: 40px 0 20px 50px;
+			padding: 0;
+			border:0;
+			font-size: 33px;
+		}
 		
+		.content{
+			height: 2000px;
+			width: 1366px;
+		}
+		.content_head{
+			width: 1366px;
+			height: 205px;
+		}
+
+		.content_headpic{
+			width: 189px;
+			height: 207px;
+			background-image: url(images/teacher.png);
+			background-repeat: no-repeat;
+			margin-left: 200px;
+			
+			float: left;
+		}
+
+		.content_heading{
+			text-align: center;
+			font-size: 44.93px;
+			font-family: "AaPaperTape";
+		}
+
+
+		.partone{
+			width: 1366px;
+			height: 338px;
+
+		}
+
+		.partoneing{
+			width: 620px;
+			height: 346px;
+			text-align: left;
+			font-size: 25px;
+			float: left;	
+		}
+
+		.partone_pic{
+			width: 142px;
+			height:210px;
+			background-image: url(images/dna.png);
+			background-repeat: no-repeat;
+			float: left;
+		}
+
+		.parttwo{
+			width: 1366px;
+			height: 1400px;
+			clear:both;
+
+		}
+
+		.parttwo_p1{
+			width: 259px;
+			height: 114px;
+			margin-top: 200px;
+			text-align: left;
+			font-size: 25px;
+			margin: 100px 50px;
+			float: left;
+		}
+
+		
+
+		.parttwo_pic{
+			height: 1176px;
+			width: 601px;
+			background-image: url(images/big.png);
+			background-repeat: no-repeat;
+			float: left;
+		}
+
+		.parttwo_p2{
+			width: 213px;
+			height: 115px;
+			text-align: left;
+			font-size: 25px;
+			float: right;
+		}
+
+		.parttwo_p3{
+			width: 233px;
+			height: 162px;
+			text-align: left;
+			font-size: 25px;
+			float: left;			
+		}
