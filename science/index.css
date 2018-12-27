@@ -68,26 +68,33 @@ body{
 			background-image: url(images/teacher.png);
 			background-repeat: no-repeat;
 			margin-left: 200px;
-			
+			margin-right: 150px;
 			float: left;
+			
 		}
 
 		.content_heading{
 			text-align: center;
-			font-size: 44.93px;
+			width: 600px;
+			height: 45px;
+			margin-top: 50px;
+			font-size: 40px;
 			font-family: "AaPaperTape";
+			float: left;
 		}
 
 
 		.partone{
 			width: 1366px;
 			height: 338px;
-
+			margin-left:300px;
+			margin-top: 50px;
 		}
 
 		.partoneing{
 			width: 620px;
 			height: 346px;
+			margin-right: 110px;
 			text-align: left;
 			font-size: 25px;
 			float: left;	
@@ -96,6 +103,7 @@ body{
 		.partone_pic{
 			width: 142px;
 			height:210px;
+			margin-right: 100px;
 			background-image: url(images/dna.png);
 			background-repeat: no-repeat;
 			float: left;
@@ -104,17 +112,20 @@ body{
 		.parttwo{
 			width: 1366px;
 			height: 1400px;
+
 			clear:both;
+			margin-top: 50px;
+			margin-left: 50px;
 
 		}
 
 		.parttwo_p1{
 			width: 259px;
 			height: 114px;
-			margin-top: 200px;
+			margin-top: 340px;
+			margin-left: 65px;
 			text-align: left;
 			font-size: 25px;
-			margin: 100px 50px;
 			float: left;
 		}
 
@@ -125,15 +136,18 @@ body{
 			width: 601px;
 			background-image: url(images/big.png);
 			background-repeat: no-repeat;
+			margin-left: 50px;
 			float: left;
 		}
 
 		.parttwo_p2{
 			width: 213px;
 			height: 115px;
+			margin-top: 481px;
+			margin-left: 100px;
 			text-align: left;
 			font-size: 25px;
-			float: right;
+			float: left;
 		}
 
 		.parttwo_p3{
