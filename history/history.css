@@ -1,0 +1,339 @@
+		body{
+			font-family: "AaWanWan";
+			background: url(images/bgimage.png);
+			width: 1400px;
+			margin: 0;
+			border: 0;
+			padding: 0;
+			line-height: 46px;
+		}
+
+		h6{
+			font-size: 20px;
+			text-align: center;
+			color: grey;
+		}
+
+
+		.head{
+			width: 1400px;
+			height: 100px;
+
+		}
+		#logo{
+			height: 77px;
+			width: 223px;
+			background-image: url(images/logo.png);
+			margin:  8px 0 0 40px;
+			background-repeat: no-repeat;
+			float: left;
+		}
+
+		.guide{
+			float:right;
+			height:100px;
+			width: 1000px; 
+			background-image: url(images/guidebg.png);
+			background-repeat: no-repeat;
+			text-align: left;
+			margin: 0;
+			padding: 0;
+			border:0;
+			font-size: 33px;
+		}
+		
+		.headline{
+			margin-top: 50px;
+			width: 1440px;
+			height: 5px;
+			background-image: url(images/headline.png);
+			clear: both;
+		}
+
+		.breadcrum{
+			background-image: url(images/breadcrum.png);
+			height:50px;
+			width: 1266px; 
+			background-repeat: no-repeat;
+			text-align: left;
+			margin: 40px 0 20px 50px;
+			padding: 0;
+			border:0;
+			font-size: 33px;
+
+		}
+/*这里是内容的大div*/
+		.content{
+			height: 2000px;
+			width:1366px;
+		}
+/*标题栏*/
+		.content_head{
+			width: 1366px;
+			height: 205px;
+		}
+
+		.content_headpic{
+			width: 189px;
+			height: 207px;
+			background-image: url(images/content_head.png);
+			background-repeat: no-repeat;
+			float: left;
+			margin-left: 300px;
+		}
+
+		.content_heading{
+			text-align: left;
+			font-size: 44.93px;
+			font-family: "AaPaperTape";
+			margin-left: 570px;
+		}
+
+		.part1_note,.part2_note1,.part2_note2,.part2_note3,.part3_note1,.part3_note2,.part3_note3{
+			display: none;
+		}
+
+		#service-item {
+		  display: block;
+		  float: left;
+		  
+		}
+		#service-item:hover #service-icon {
+		  -webkit-animation: icon-bounce 0.5s alternate;
+		  -moz-animation: icon-bounce 0.5s alternate;
+		  -o-animation: icon-bounce 0.5s alternate;
+		  animation: icon-bounce 0.5s alternate;
+		}
+
+		#service-icon-wrap {
+		  text-align: center;
+		  display: block;
+		}
+
+
+/*第一部分*/
+		.part1{
+			width: 1366px;
+			height: 338px;
+			margin-top: 50px;
+		}
+
+		.part1 p{
+			text-align: left;
+			font-size: 25px;
+			clear: both;
+			float: left;
+			margin-left: 130px;		
+		}
+
+		.part1_pic {
+			width: 352px;
+			height: 210px;
+			background-image: url(images/part1_pic.png);
+			background-repeat: no-repeat;
+			float: left;
+			margin-left: 138px;
+			padding-top: 150px;
+			
+		}
+		.part1_note{
+			width: 262px;
+			height: 186px;
+			position: absolute;
+			left:1000px ;
+			top:387px;
+		}
+
+
+/*第二部分*/
+		.part2{
+			width: 1366px;
+			height: 523px;
+			margin-top: 70px;
+		}
+
+		.part2 p{
+			text-align: left;
+			font-size: 25px;
+			margin-left: 700px;
+		}
+
+		.part2_pic1{
+			width: 215px;
+			height: 258px;
+			background-image: url(images/part2_pic1.png);
+			background-repeat: no-repeat;
+			float: left;
+			margin-left: 100px;
+		}
+
+		.part2_pic2{
+			width: 157px;
+			height: 293px;
+			background-image: url(images/part2_pic2.png);
+			background-repeat: no-repeat;
+			float: left;
+			margin-left: 50px;
+		}
+		.part2_pic3{
+			width: 367px;
+			height: 243px;
+			background-image: url(images/part2_pic3.png);
+			background-repeat: no-repeat;
+			float: left;
+			margin: 130px 0 0 310px;
+		}
+
+		.part2_note1{
+			width: 186px;
+			height: 110px;
+			position: absolute;
+			left:100px ;
+			top:950px;
+		}
+
+		.part2_note2{
+			width: 200px;
+			height: 103px;
+			position: absolute;
+			left:370px ;
+			top:980px;
+		}
+
+		.part2_note3{
+			width: 128px;
+			height: 103px;
+			position: absolute;
+			left:883px ;
+			top:1170px;
+		}
+
+/*第三部分*/
+		.part3{
+			width: 1366px;
+			height: 440px;
+			margin-top: 200px;
+		}
+		
+		.part3 p{
+			text-align: left;
+			font-size: 25px;
+			margin-left: 200px;
+			float: left;
+		}
+		.part3_pic1{
+			width: 141px;
+			height: 290px;
+			background-image: url(images/part3_pic1.png);
+			background-repeat: no-repeat;
+			float: left;
+			margin-top: 100px;
+			margin-left: 134px;
+		}
+
+		.part3_pic2{
+			width: 143px;
+			height: 285px;
+			background-image: url(images/part3_pic2.png);
+			background-repeat: no-repeat;
+			margin-top: 100px;
+			margin-left: 40px;
+			float: left;
+		}
+
+		.part3_pic3{
+			width: 139px;
+			height: 295px;
+			background-image: url(images/part3_pic3.png);
+			background-repeat: no-repeat;
+			float: left;
+			margin-top: 100px;
+			margin-left: 30px;
+		}
+
+		.part3_note1{
+			width: 186px;
+			height: 103px;
+			position: absolute;
+			left:75px ;
+			top:1650px;
+		}
+
+		.part3_note2{
+			width: 170px;
+			height: 102px;
+			position: absolute;
+			left:300px ;
+			top:1650px;
+		}
+
+		.part3_note3{
+			width: 183px;
+			height: 102px;
+			position: absolute;
+			left:500px ;
+			top:1650px;
+		}
+
+
+
+		
+		.clear {
+		    clear:both;/*主要使用这个属性来清除浮动*/
+  }
+
+@keyframes icon-bounce {
+			  0%, 100% {
+			    -moz-transform: rotate(0deg);
+			    -ms-transform: rotate(0deg);
+			    -webkit-transform: rotate(0deg);
+			    transform: rotate(0deg);
+			  }
+
+			  25% {
+			    -moz-transform: rotate(15deg);
+			    -ms-transform: rotate(15deg);
+			    -webkit-transform: rotate(15deg);
+			    transform: rotate(15deg);
+			  }
+
+			  50% {
+			    -moz-transform: rotate(-15deg);
+			    -ms-transform: rotate(-15deg);
+			    -webkit-transform: rotate(-15deg);
+			    transform: rotate(-15deg);
+			  }
+
+			  75% {
+			    -moz-transform: rotate(5deg);
+			    -ms-transform: rotate(5deg);
+			    -webkit-transform: rotate(5deg);
+			    transform: rotate(5deg);
+			  }
+
+			  85% {
+			    -moz-transform: rotate(-5deg);
+			    -ms-transform: rotate(-5deg);
+			    -webkit-transform: rotate(-5deg);
+			    transform: rotate(-5deg);
+			  }
+			}
+
+		
+
+a{text-decoration: none;}
+a.content:link {color: grey}
+a.content:visited {color: black}
+a.content:hover {color: grey}
+a.content:active {color: rgb(255,2,83)}
+
+a.navigation1:link {color: grey}
+a.navigation1:visited {color: black}
+a.navigation1:hover {color: white}
+a.navigation1:active {color: grey}
+
+a.navigation:link {color: grey}
+a.navigation:visited {color: black}
+a.navigation:hover {color: white}
+a.navigation:active {color: lightgrey}
+
