@@ -1,6 +1,7 @@
 * {
 	margin: 0px;
 	border: 0px;
+	font-family: "AaWanWan";
 }
 body{
 	background-color: AliceBlue;
@@ -493,7 +494,7 @@ a.navigation1:active {color: grey}
 	z-index: 1000;
 }
 #bbubble2{
-	position: absolute;
+	position: relative;
 	left: 0px;
 	top: 0px;
 	width: 318px;
@@ -502,6 +503,9 @@ a.navigation1:active {color: grey}
 	opacity: 1.0;
 	z-index: 1005;
 	transition: all 0.5s;
+}
+#bbubble2{
+
 }
 #bbubble2 + div{
 	position: absolute;
