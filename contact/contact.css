@@ -1,0 +1,192 @@
+* {
+	margin: 0px;
+	border: 0px;
+	font-family: "AaWanWan";
+}
+body{
+	background-color: #ffffff;
+	background-image: url(images/bgi.png);
+	background-position: center;
+}
+.ink{
+	position: absolute;
+	background-image: url(images/ink.png);
+	width: 1105px;
+	height: 767px;
+	left: 50px;
+	top: 70px;
+}
+img{
+}
+a{text-decoration: none;}
+#my_main{
+	
+	width: 1366px;
+	height: 768px;
+	margin: 0 auto;	
+	/*
+	background-color: #f0f0f0;
+	background-image: url(../static/bgi.png);
+	background-position: 50% 37px;*/
+
+	
+	border-width: 0 2px 0;
+	border-color: #aaaaaa;
+	border-style: solid;
+	
+}
+#my_header{
+	/*
+	border-style: solid;
+	border-width: 0px 0px 4px;
+	border-color: #F7B5AB;
+	background-color: #eeeeee;
+	background-image: url(../static/bgi.png);*/
+	width: 1366px;
+	margin: auto;
+}
+#my_logo{
+	margin-left: 40px;
+	width: 240px;
+	height: 100px;
+}
+#footer{
+	float: right;
+	width: 1000px;
+	margin-top: 10px;
+}
+.guide{
+	background-image: url(images/cloud.png);
+	background-repeat: no-repeat;
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 200px;
+	border:0;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	font-size: 30px;
+	width: 800px;
+	height: 45px;
+	background-size: 100% 100%;
+}
+.character{
+	margin-left: 50px;
+	float: left;
+	height: 500px;
+	width: 750px;
+	font-size: 30px;
+	text-align: center;
+	font-family: "AaWanWan";
+}
+.ty{
+	padding-top:270px;
+	background-image: url(images/ty.png);
+	height: 280px;
+	width: 136px;
+	background-repeat: no-repeat;
+	float: left;
+
+}
+
+.xn{
+	padding-top:270px;
+	background-image: url(images/xn.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 280px;
+	width: 162px;
+}
+
+.hq{
+	padding-top:270px;
+	background-image: url(images/hq.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 280px;
+	width: 105px;
+}
+
+.kcj{
+	padding-top:270px;
+	background-image: url(images/kcj.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 280px;
+	width: 174px;
+}
+
+.lz{
+	padding-top:270px;
+	background-image: url(images/lz.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 280px;
+	width: 144px;
+}
+
+
+.contact{
+	float: right;
+	height: 500px;
+	width: 521px;
+	line-height: 100px;
+	font-size: 40px;
+}
+
+.telephone{
+	color: rgb(245,114,130);
+	background-image: url(images/telephone.png);
+	background-repeat: no-repeat;
+	
+}
+.email{
+	color: rgb(245,114,130);
+	background-image: url(images/email.png);
+	background-repeat: no-repeat;
+}
+
+.weibo{
+	color: rgb(245,114,130);
+	background-image: url(images/weibo.png);
+	background-repeat: no-repeat;
+	
+}
+
+.phone{
+	color: rgb(245,114,130);
+	background-image: url(images/phone.png);
+	background-repeat: no-repeat;
+}
+
+.location{
+	color: rgb(245,114,130);
+	background-image: url(images/location.png);
+	background-repeat: no-repeat;
+}
+
+
+a.navigation1:link {color: grey}
+a.navigation1:visited {color: black}
+a.navigation1:hover {color: white}
+a.navigation1:active {color: grey}
+a.navigation:link {color: grey}
+a.navigation:visited {color: black}
+a.navigation:hover {color: white}
+a.navigation:active {color: lightgrey}
+.breadcrum{
+	background-image: url(images/breadcrum.png);
+	height: 30px;
+	background-repeat: no-repeat;
+	text-align: left;
+	margin: 40px 0 20px 50px;
+	padding: 5px;
+	border:0;
+	font-size: 25px;
+	background-size: 100% 100%;
+	/*this is to be changed by yourself*/
+	width: 200px;
+}
+.my_body{
+	position: relative;
+	width: 1366px;
+}
