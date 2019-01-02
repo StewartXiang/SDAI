@@ -4,23 +4,38 @@
 	font-family: "AaWanWan";
 }
 body{
-	background-color: AliceBlue;
+	background-color: #ffffff;
+	background-image: url(../static/bgi.png);
+	background-position: center;
 }
 img{
 }
 a{text-decoration: none;}
 #my_main{
+	
 	width: 1366px;
 	height: 768px;
-	margin: 0 auto;
+	margin: 0 auto;	
+	/*
+	background-color: #f0f0f0;
 	background-image: url(../static/bgi.png);
-	background-position: center;
-	background-repeat: no-repeat;
+	background-position: 50% 37px;*/
+
+	
+	border-width: 0 2px 0;
+	border-color: #aaaaaa;
+	border-style: solid;
+	
 }
 #my_header{
+	/*
 	border-style: solid;
 	border-width: 0px 0px 4px;
 	border-color: #F7B5AB;
+	background-color: #eeeeee;
+	background-image: url(../static/bgi.png);*/
+	width: 1366px;
+	margin: auto;
 }
 #my_logo{
 	margin-left: 40px;
