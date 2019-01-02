@@ -14,15 +14,15 @@ a{text-decoration: none;}
 #my_main{
 	
 	width: 1366px;
-	height: 768px;
 	margin: 0 auto;	
+	padding-bottom: 120px; 
 	/*
 	background-color: #f0f0f0;
 	background-image: url(../static/bgi.png);
 	background-position: 50% 37px;*/
 
 	
-	border-width: 0 2px 0;
+	border-width: 0 2px 2px;
 	border-color: #aaaaaa;
 	border-style: solid;
 	
