@@ -1,3 +1,8 @@
+@font-face {
+  	font-family: "AaWanWan";   /*字体名称*/
+  	src: url("../static/eight.TTF") format("truetype");       /*字体源文件*/
+
+}
 * {
 	margin: 0px;
 	border: 0px;
@@ -15,7 +20,7 @@ a{text-decoration: none;}
 	
 	width: 1366px;
 	margin: 0 auto;	
-	padding-bottom: 120px; 
+	/*padding-bottom: 120px; */
 	/*
 	background-color: #f0f0f0;
 	background-image: url(../static/bgi.png);

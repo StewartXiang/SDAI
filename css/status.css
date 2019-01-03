@@ -2,13 +2,13 @@
 	background-image: url(../static/bg404.png);
 	background-repeat: no-repeat;
 	background-position: 800px 100px;
-	width: 1366px;
+	/*width: 1366px;*/
 	padding-top: 100px;
 	padding-left: 180px;
 }
 #first_line{
 	height: 260px;
-	width: 1360px;
+	/*width: 1360px;*/
 }
 #big_nf{
 	font-size: 250px;
