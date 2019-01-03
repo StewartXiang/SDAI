@@ -12,12 +12,13 @@ body{
 			height: 260px;
 			width: 1366px;
 			position:relative;
+
 		}
 
 		.cloud{
 			height: 220px;
-			width: 800px;
-			background-repeat: no-repeat;
+			width: 770px;
+			background: url(images/cloud1.png);
 			position:absolute;
             margin-top:0px;     /*这里是小盒子高的一半*/
             margin-left: 350px;    /*这里是小盒子宽的一半*/
