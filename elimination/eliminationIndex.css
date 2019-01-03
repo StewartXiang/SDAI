@@ -21,7 +21,11 @@ body{
 			background: url(images/cloud1.png);
 			position:absolute;
             margin-top:0px;     /*这里是小盒子高的一半*/
-            margin-left: 350px;    /*这里是小盒子宽的一半*/
+            margin-left: 330px;    /*这里是小盒子宽的一半*/
+		}
+		.cloud img{
+			margin-top: 30px;
+			margin-left: 120px;
 		}
 
 		.notes{
