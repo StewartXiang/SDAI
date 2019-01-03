@@ -190,3 +190,8 @@ a.navigation:active {color: lightgrey}
 	position: relative;
 	width: 1366px;
 }
+
+a.email:link {color: grey}
+a.email:visited {color: black}
+a.email:hover {color: white}
+a.email:active {color: grey}
