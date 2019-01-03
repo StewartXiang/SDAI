@@ -1,0 +1,115 @@
+* {
+	margin: 0px;
+	border: 0px;
+	font-family: "AaWanWan";
+	text-align:center;
+}
+body{
+	background-color: #ffffff;
+	background-image: url(../images/bgi.png);
+	background-position: center;
+}
+img{
+}
+a{text-decoration: none;}
+.main{
+	
+	
+}
+#my_header{
+	
+	width: 1366px;
+	margin: auto;
+}
+#my_logo{
+	margin-left: 40px;
+	width: 240px;
+	height: 80px;
+}
+#footer{
+	float: right;
+	width: 1000px;
+	margin-top: 10px;
+}
+.guide{
+	background-image: url(../images/cloud.png);
+	background-repeat: no-repeat;
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 200px;
+	border:0;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	font-size: 30px;
+	width: 800px;
+	height: 45px;
+	background-size: 100% 100%;
+}
+#thanks{
+	width: 550px;
+	margin-left: 400px;
+	font-size:25px;
+}
+#one{
+	position:absolute;
+	top:160px;
+	left:960px;}
+#two{
+	position:absolute;
+	top:470px;
+	left:260px;
+}
+#three{
+	position:absolute;
+	top:150px;
+	left:225px;
+}
+#four{
+	position:absolute;
+	top:280px;
+	left:70px;}
+#five{
+	position:absolute;
+	top:550px;
+	left:1250px;
+}
+#six{
+	position:absolute;
+	top:550px;
+	left:81px;
+}
+#seven{
+	position:absolute;
+	top:465px;
+	left:950px;
+}
+#eight{
+	position:absolute;
+	top:100px;
+	left:1175px;
+}
+a.navigation1:link {color: grey}
+a.navigation1:visited {color: black}
+a.navigation1:hover {color: white}
+a.navigation1:active {color: grey}
+a.navigation:link {color: grey}
+a.navigation:visited {color: black}
+a.navigation:hover {color: white}
+a.navigation:active {color: lightgrey}
+.breadcrum{
+	background-image: url(../static/breadcrum.png);
+	height: 30px;
+	background-repeat: no-repeat;
+	text-align: left;
+	margin: 40px 0 20px 50px;
+	padding: 5px;
+	border:0;
+	font-size: 25px;
+	background-size: 100% 100%;
+	/*this is to be changed by yourself*/
+	width: 200px;
+}
+.my_body{
+	position: relative;
+	width: 1366px;
+}
