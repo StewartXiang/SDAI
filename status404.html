@@ -35,17 +35,27 @@
 			<a class="navigation" href="http://www.baidu.com" target="_blank">书架</a>
 			
 		</div> -->
-		<div id="my_body">
+		<div id="my_body" style="padding-bottom: 120px;">
 			<div id="my_nf">
 				<div id="first_line">
 					<div id="big_nf">404</div>
-					<button type="button" class="my_buttom">返回首页</button>
-					<button type="button" class="my_buttom">再次刷新</button>
+					<button type="button" class="my_buttom" id="back">返回首页</button>
+					<button type="button" class="my_buttom" id="fresh">再次刷新</button>
 				</div>
 				<div id="small_nf">PAGE NOT FOUND</div>
 			</div>
 			<!-- some thing -->
 		</div>
 	</div>
+	<script type="text/javascript">
+		var ans1 = document.getElementById("back");
+		ans1.onclick=function(){
+			window.location.href="index.html";
+		}
+		var ans2 = document.getElementById("fresh");
+		ans2.onclick=function(){
+			window.location.href="status404.html";
+		}
+	</script>
 </body>
 </html>
