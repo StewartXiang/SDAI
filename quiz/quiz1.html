@@ -4,7 +4,7 @@
 	<title>病名为艾</title>
 	<meta charset="utf-8"/>
 	<link href="quiz1.css" rel="stylesheet" type="text/css">
-	<!-- add other css -->
+	
 </head>
 <body ondragstart="return false">
 	<div style="border-style: solid;border-width: 0px 0px 4px;border-color: #F7B5AB;width: 100%">
@@ -35,12 +35,21 @@
 			-->
 		</div>
 		<div id="my_body">
-			<div class="quizno1"><h1>以下哪个泡泡可能会携带病毒？</h1></div>
+			<div class="quizno1"><h1>以下哪个泡泡可能不会携带病毒？</h1></div>
 			<div class="bluebb1">公用牙刷</div>
 			<div class="yellowbb">野生动物挠你</div>
-			<div class="bluebb2">蚊虫叮咬</div>
+			<div class="bluebb2"><button id="ans">蚊虫叮咬</button></div>
 			<div class="redbb">HIV准妈妈<br>的宝宝</div>
 		</div>
 	</div>
+
+	<script type="text/javascript">
+		var ans = document.getElementById("ans");
+		ans.onclick=function(){
+			alert("congratulations!");
+			window.location.href="quiz2.html";
+		}
+	</script>
+
 </body>
 </html>

@@ -14,9 +14,10 @@
 	background-image: url(images/paper.png);
 	background-size: 100% 30px;
 	width: 1206px;
-	padding-bottom: 100px;
+	padding-bottom: 100px;	
 	padding-top: 40px;
 	margin-left: 80px;
+	margin-top: 60px;
 	/*margin-bottom: 80px;*/
 	/*
 	border-width: 70px 80px 60px 80px;
@@ -85,4 +86,13 @@
 	background-color: unset;
 	float: right;
 	font-size: 35px;
+	margin-right: 50px;
+}
+
+#png{
+	padding-left: 70px;
+}
+
+#png2{
+	padding-left: -30px;
 }

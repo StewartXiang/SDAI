@@ -37,10 +37,23 @@
 		<div id="my_body">
 			<div class="quizno"><h1>哪些公共区域的HIV会感染你呢？</h1></div>
 			<div class="bb1">共享餐具</div>
-			<div class="bb2">公用剃须刀</div>
-			<div class="bb3">卖血</div>
+			<div class="bb2"><button class="ans">公用剃须刀</button></div>
+			<div class="bb3"><button class="ans">卖血</button></div>
 			<div class="bb4">公用<br>洗衣机</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+		var ans = document.getElementsByClassName("ans");
+		ans[0].onclick=function(){
+			alert("congratulations!");
+			window.location.href="quiz2.html";
+		}
+		ans[1].onclick=function(){
+			alert("congratulations!");
+			window.location.href="quiz2.html";
+		}
+		
+		
+	</script>
 </body>
 </html>
