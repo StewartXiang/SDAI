@@ -9,13 +9,17 @@ body{
 	background-image: url(../images/bgi.png);
 	background-position: center;
 }
-img{
-}
+.my_main{
+	
+		width: 1366px;
+		margin: 0 auto;	
+		padding-bottom: 600px;
+		border-width: 0 2px 2px;
+		border-color: #aaaaaa;
+		border-style: solid;
+		}
 a{text-decoration: none;}
-.main{
-	
-	
-}
+
 #my_header{
 	
 	width: 1366px;
@@ -47,6 +51,7 @@ a{text-decoration: none;}
 }
 #thanks{
 	width: 550px;
+	position:absolute;
 	margin-left: 400px;
 	font-size:25px;
 }
@@ -96,20 +101,5 @@ a.navigation:link {color: grey}
 a.navigation:visited {color: black}
 a.navigation:hover {color: white}
 a.navigation:active {color: lightgrey}
-.breadcrum{
-	background-image: url(../static/breadcrum.png);
-	height: 30px;
-	background-repeat: no-repeat;
-	text-align: left;
-	margin: 40px 0 20px 50px;
-	padding: 5px;
-	border:0;
-	font-size: 25px;
-	background-size: 100% 100%;
-	/*this is to be changed by yourself*/
-	width: 200px;
-}
-.my_body{
-	position: relative;
-	width: 1366px;
-}
+
+
