@@ -47,6 +47,13 @@ a{text-decoration: none;}
 	width: 1000px;
 	margin-top: 10px;
 }
+
+button{
+background: none;
+border:none;
+font-size: 48px;
+}
+
 .guide{
 	background-image: url(images/cloud.png);
 	background-repeat: no-repeat;

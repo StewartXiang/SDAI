@@ -78,7 +78,7 @@ font-size: 48px;
 	text-align: left;
 	width: 1000px;
 	height: 163px;
-	font-size: 35px;
+	font-size: 32px;
 }
 
 .bluebb1{
@@ -142,6 +142,7 @@ a.navigation:link {color: grey}
 a.navigation:visited {color: black}
 a.navigation:hover {color: white}
 a.navigation:active {color: lightgrey}
+
 .breadcrum{
 	background-image: url(images/breadcrum.png);
 	height: 30px;
