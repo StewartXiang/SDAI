@@ -4,10 +4,11 @@
 	<title>病名为爱</title>
 	<meta charset="utf-8"/>
 	<link href="css/index.css" rel="stylesheet" type="text/css">
+	<link href="css/base.css" rel="stylesheet" type="text/css">
 </head>
 <body ondragstart="return false">
-	<div id="my_body">
-		<div id="my_header">		
+	<div style="border-style: solid;border-width: 0px 0px 4px;border-color: #F7B5AB;width: 100%">
+		<div id="my_header">
 			<img id="my_logo" src="static/logo.png">
 			<div id="footer">
 				<div class="guide">
@@ -18,10 +19,22 @@
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 					<a class="navigation1" href="otherweb/otherweb.html" target="_blank">其他网站推荐</a>
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-					<a class="navigation1" href="../thanks/thanks.html" target="_blank">感谢</a>
+					<a class="navigation1" href="http://www.baidu.com" target="_blank">感谢</a>
 				</div>
 			</div>
+		</div>	
+	</div>
+	<div id="my_main">
+		<div class="breadcrum">
+			<a class="navigation" href="http://www.baidu.com" target="_blank">首页</a>
+			<!-- other bread
+			》
+			<a class="navigation" href="http://www.baidu.com" target="_blank">预防的小quiz</a>
+			》
+			<a class="navigation" href="http://www.baidu.com" target="_blank">书架</a>
+			-->
 		</div>
+		<div id="my_body">
 		<div class="side" id="left_side">
 			<img src="static/hp.png" class="hp" id="left_hp"/>
 			<img src="static/tt.png" id="my_tt"/>
@@ -47,25 +60,33 @@
 		<div id="main">
 			<div id="bbubble2_div">
 				<div id="bbubble2_p"></div>
-				<p style="position: absolute;top: 80px;left: 60px;font-size: 50px;z-index: 1030;">科普</p>
+				<p style="position: absolute;top: 120px;left: 115px;font-size: 50px;z-index: 1030;">科普</p>
 				<img src="static/bubble_y.png" id="bbubble2" tabindex="1"/>
 				<div id="bbubble2h_div">
-					<a href="elimination/eliminationIndex.html"><img src="static/bubble_y.png" id="bbubble2h1"/></a>
+					<a href="elimination/elimination.html"><img src="static/bubble_y.png" id="bbubble2h1"/></a>
 					<p style="position: absolute;top: 50px;left: 40px; font-size: 30px;">病理</p>
 					<a href="history/history.html"><img src="static/bubble_y.png" id="bbubble2h2"/></a>
 					<p style="position: absolute;top: 50px;left: 190px; font-size: 30px;">历史</p>
 				</div>
 			</div>
 			<div id="bbubble1_div">
-				<a href="bookshelf/index.html"><img src="static/bubble_r.png" id="bbubble1"/></a>
+				<a href="bookshelf/index.html">
+					<p style="position: absolute;top: 120px;left: 150px;font-size: 50px;z-index: 1030;">治疗<br/>&<br/>预防</p>
+					<img src="static/bubble_r.png" id="bbubble1"/>
+				</a>
 			</div>
-			<div id="bbubble3_div"><img src="static/bubble_b.png" id="bbubble3"/></div>
+			<div id="bbubble3_div">
+				<a href="bookshelf/index.html">
+					<p style="position: absolute;top: 50px;left: 40px; font-size: 30px;">消除<br/>歧视</p>
+					<img src="static/bubble_b.png" id="bbubble3"/>
+				</a>
+			</div>
 			<img src="static/bubble_r.png" class="small_bubble" id="bubble5"/>
 			<img src="static/bubble_r.png" class="small_bubble" id="bubble6"/>
 			<img src="static/bubble_r.png" class="small_bubble" id="bubble7"/>
 		</div>
 
-
+	</div>
 	</div>
 </body>
 </html>
