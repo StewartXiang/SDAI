@@ -1,74 +1,13 @@
-/*body{
-		font-family: "AaWanWan";
-			background: url(images/bg.png);
-			width: 1366px;
-			height: 5000px;
-			margin: auto;
-			border: 0;
-			padding: 0;
-	}
-	.heado{
-			width: 1400px;
-			height: 100px;
 
-		}
-		#logo{
-			height: 77px;
-			width: 223px;
-			background-image: url(images/logo.png);
-			margin:  8px 0 0 40px;
-			background-repeat: no-repeat;
-			float: left;
-		}
-
-		.guide{
-			float:right;
-			height:100px;
-			width: 1000px; 
-			background-image: url(images/guidebg.png);
-			background-repeat: no-repeat;
-			text-align: left;
-			margin-left:0px;
-			padding:0 120 0 0px ;
-			border:0;
-			font-size: 33px;	
-		}
-		
-		.headline{
-			margin-top: 50px;
-			width: 1440px;
-			height: 5px;
-			background-image: url(images/headline.png);
-			clear: both;
-			border-style: solid;
-			border-width: 0px 0px 4px;
-			border-color: #F7B5AB;
-		}
-		.breadcrum{
-			background-image: url(images/breadcrumbg.png);
-			height:50px;
-			width: 1266px; 
-			background-repeat: no-repeat;
-			text-align: left;
-			margin: 40px 0 20px 50px;
-			padding: 0;
-			border:0;
-			font-size: 33px;
-		}
-		
-		.content{
-			height: 5000px;
-			width: 1366px;
-		}*/
 		.content_head{
-			width: 1366px;
+			width: 1286px;
 			height: 205px;
 		}
 
 		.content_headpic{
 			width: 189px;
 			height: 207px;
-			background-image: url(static/teacher.png);
+			background-image: url(../../images/teacher.png);
 			background-repeat: no-repeat;
 			margin-left: 200px;
 			margin-right: 150px;
@@ -88,7 +27,7 @@
 
 
 		.partone{
-			width: 1366px;
+			width: 1286px;
 			height: 338px;
 			margin-left:300px;
 			margin-top: 50px;
@@ -107,13 +46,13 @@
 			width: 142px;
 			height:210px;
 			margin-right: 100px;
-			background-image: url(static/dna.png);
+			background-image: url(../../images/dna.png);
 			background-repeat: no-repeat;
 			float: left;
 		}
 
 		.parttwo{
-			width: 1366px;
+			width: 1286px;
 			height: 1400px;
 
 			clear:both;
@@ -137,7 +76,7 @@
 		.parttwo_pic{
 			height: 1176px;
 			width: 601px;
-			background-image: url(static/big.png);
+			background-image: url(../../images/big.png);
 			background-repeat: no-repeat;
 			margin-left: 50px;
 			float: left;
@@ -164,7 +103,7 @@
 
 		.partthree{
 			height: 2300px;
-			width: 1366px;
+			width: 1286px;
 			clear:both;
 			margin-top: 50px;
 			margin-left: 50px;
@@ -187,18 +126,13 @@
 			margin-left: 600px;
 		}
 		.partthree_pic{
-			background-image: url(static/second.png);
+			background-image: url(../../images/second.png);
 			height: 2000px;
-			width: 1366px;
+			width: 1286px;
 			background-repeat: no-repeat;
 			margin-left: 50px;
 			float: left;
 		}
-
-
-
-
-
 
 
 
@@ -207,13 +141,3 @@ a.content:link {color: grey}
 a.content:visited {color: black}
 a.content:hover {color: grey}
 a.content:active {color: rgb(255,2,83)}
-
-a.navigation1:link {color: grey}
-a.navigation1:visited {color: black}
-a.navigation1:hover {color: white}
-a.navigation1:active {color: grey}
-
-a.navigation:link {color: grey}
-a.navigation:visited {color: black}
-a.navigation:hover {color: white}
-a.navigation:active {color: lightgrey}

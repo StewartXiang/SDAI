@@ -1,62 +1,6 @@
-* {
-	margin: 0px;
-	border: 0px;
-	font-family: "AaWanWan";
-}
-body{
-	background-color: AliceBlue;
-}
-img{
-}
-a{text-decoration: none;}
 #my_body{
-	width: 1366px;
-	height: 768px;
-	margin: 0 auto;
-	background-image: url(../static/bgi.png);
-	background-position: center;
-	background-repeat: no-repeat;
+	height: 700px;
 }
-#my_header{
-	border-style: solid;
-	border-width: 0px 0px 4px;
-	border-color: #F7B5AB;
-}
-#my_logo{
-	margin-left: 40px;
-	width: 240px;
-	height: 100px;
-}
-#footer{
-	float: right;
-	width: 1000px;
-	margin-top: 10px;
-}
-.footer_item{
-	margin: 30px 40px;
-	float: right;
-	background-image: url(../static/cloud.png);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-}
-.footer_item a{
-	font-size: 30px;
-}
-.guide{
-	background-image: url(../static/cloud.png);
-	background-repeat: no-repeat;
-	text-align: left;
-	margin-top: 20px;
-	margin-left: 300px;
-	border:0;
-	padding-top: 8px;
-	padding-bottom: 5px;
-	font-size: 22px;
-}
-a.navigation1:link {color: grey}
-a.navigation1:visited {color: black}
-a.navigation1:hover {color: white}
-a.navigation1:active {color: grey}
 .side{
 	width: 300px;
 	position: relative;
@@ -486,7 +430,7 @@ a.navigation1:active {color: grey}
 }*/
 #bbubble2_div{
 	position: absolute;
-	left: 344px;
+	left: 400px;
 	top: 18px;
 	width: 318px;
 	height: 314px;
@@ -530,8 +474,8 @@ a.navigation1:active {color: grey}
 }
 #bbubble3{
 	position: absolute;
-	left: 589px;
-	top: 264px;
+	left: 550px;
+	top: 350px;
 	width: 242px;
 	height: 234px;
 	transform: rotate(0deg);

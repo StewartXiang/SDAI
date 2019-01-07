@@ -1,16 +1,18 @@
 @font-face {
   	font-family: "AaWanWan";   /*字体名称*/
-  	src: url("../static/night.TTF") format("truetype");       /*字体源文件*/
+  	src: url("../ttf/night.TTF") format("truetype");       /*字体源文件*/
 
 }
 * {
 	margin: 0px;
 	border: 0px;
 	font-family: "AaWanWan";
+	font-style: normal;
+	border-color: #F7B5AB;
 }
 body{
 	background-color: #ffffff;
-	background-image: url(../static/bgi.png);
+	background-image: url(../images/bgi.png);
 	background-position: center;
 }
 img{
@@ -32,13 +34,17 @@ a{text-decoration: none;}
 	border-style: solid;
 	
 }
-#my_header{
-	/*
+#my_head{
 	border-style: solid;
 	border-width: 0px 0px 4px;
 	border-color: #F7B5AB;
+	width: 100%;
+}
+#my_header{
+	border-width: 0px;/*
+	border-color: #F7B5AB;
 	background-color: #eeeeee;
-	background-image: url(../static/bgi.png);*/
+	background-image: url(../static/bgi.png)*/;
 	width: 1366px;
 	margin: auto;
 }
@@ -47,13 +53,13 @@ a{text-decoration: none;}
 	width: 240px;
 	height: 100px;
 }
-#footer{
+#guider{
 	float: right;
 	width: 1000px;
 	margin-top: 10px;
 }
 .guide{
-	background-image: url(../static/cloud.png);
+	background-image: url(../images/cloud.png);
 	background-repeat: no-repeat;
 	text-align: left;
 	margin-top: 20px;
@@ -75,7 +81,7 @@ a.navigation:visited {color: black}
 a.navigation:hover {color: white}
 a.navigation:active {color: lightgrey}
 .breadcrum{
-	background-image: url(../static/breadcrum.png);
+	background-image: url(../images/breadcrum.png);
 	height: 30px;
 	background-repeat: no-repeat;
 	text-align: left;
@@ -87,7 +93,22 @@ a.navigation:active {color: lightgrey}
 	/*this is to be changed by yourself*/
 	width: 200px;
 }
-.my_body{
+#my_body{
 	position: relative;
 	width: 1366px;
+	margin: 0 auto;
+	border-width: 0px 2px;
+	border-style: solid;
+}
+#my_foot{
+	padding-top: 10px; 
+	height: 60px;
+	margin: 0;
+	border-width: 3px 0 0 0;
+	border-style: solid;
+	font-size: 18px;
+	text-align: center;
+}
+#my_foot p{
+	text-align: center;
 }
