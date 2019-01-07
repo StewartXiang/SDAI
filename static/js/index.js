@@ -11,3 +11,32 @@ var footer_link = {
 	"友情链接": "extensions/others.html",
 	"感谢": "extensions/thanks.html"
 }
+var my_header = {
+	data: function () {
+		return{
+			n_l: header_link
+		}
+	},
+	template: `
+	<div id="my_head">
+		<div id="my_header">
+			<img id="my_logo" src="static/images/logo.png">
+			<div id="guider">
+				<div class="guide">
+					<span 
+					v-for ="(link, name, index) in n_l">
+						<span>&nbsp;&nbsp;&nbsp;</span>
+						<a class="navigation1"
+						   v-bind:href="link" 
+						   target="_blank">
+							{{name}}
+						</a>
+						<span v-if="index<5">&nbsp;&nbsp;&nbsp;|</span>
+						<span v-else>&nbsp;&nbsp;&nbsp;</span>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	`
+}
