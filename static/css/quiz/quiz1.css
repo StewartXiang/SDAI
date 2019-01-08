@@ -6,7 +6,6 @@ font-size: 48px;
 }
 
 
-
 .quizno1{
 	margin: 0px 0 0 100px;
 	padding-top: 20px;
@@ -76,16 +75,3 @@ font-size: 48px;
 }
 
 
-a.navigation1:link {color: grey}
-a.navigation1:visited {color: black}
-a.navigation1:hover {color: white}
-a.navigation1:active {color: grey}
-a.navigation:link {color: grey}
-a.navigation:visited {color: black}
-a.navigation:hover {color: white}
-a.navigation:active {color: lightgrey}
-
-.my_body{
-	position: relative;
-	width: 1366px;
-}
