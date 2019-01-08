@@ -26,7 +26,7 @@ SDAI/
 				-history.css
 				-pathology.css
 			quiz/
-				-quiz1.css
+				-quiz1.css*
 				-quiz2.css
 			bookshelf/
 				-sex.css
