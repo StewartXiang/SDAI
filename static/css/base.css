@@ -106,9 +106,13 @@ a.navigation:active {color: lightgrey}
 	margin: 0;
 	border-width: 3px 0 0 0;
 	border-style: solid;
-	font-size: 18px;
+	font-size: 13px;
+	flood-color: #cccccc;
 	text-align: center;
 }
 #my_foot p{
 	text-align: center;
+}
+#my_foot a{
+	
 }

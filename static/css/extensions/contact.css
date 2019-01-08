@@ -1,0 +1,109 @@
+
+.ink{
+	position: absolute;
+	background-image: url(../../images/ink.png);
+	width: 1105px;
+	height: 767px;
+	left: 50px;
+	top: 70px;
+}
+
+.character{
+	margin-left: 50px;
+	float: left;
+	height: 500px;
+	width: 750px;
+	font-size: 30px;
+	text-align: center;
+	font-family: "AaWanWan";
+}
+.ty{
+	padding-top:270px;
+	background-image: url(../../images/ty.png);
+	height: 280px;
+	width: 136px;
+	background-repeat: no-repeat;
+	float: left;
+
+}
+
+.xn{
+	padding-top:270px;
+	background-image: url(../../images/xn.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 280px;
+	width: 162px;
+}
+
+.hq{
+	padding-top:270px;
+	background-image: url(../../images/hq.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 280px;
+	width: 105px;
+}
+
+.kcj{
+	padding-top:270px;
+	background-image: url(../../images/kcj.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 280px;
+	width: 174px;
+}
+
+.lz{
+	padding-top:270px;
+	background-image: url(../../images/lz.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 280px;
+	width: 144px;
+}
+
+
+.contact{
+	float: right;
+	height: 500px;
+	width: 521px;
+	line-height: 100px;
+	font-size: 40px;
+}
+
+.telephone{
+	color: rgb(245,114,130);
+	background-image: url(../../images/telephone.png);
+	background-repeat: no-repeat;
+	
+}
+.email{
+	color: rgb(245,114,130);
+	background-image: url(../../images/email.png);
+	background-repeat: no-repeat;
+}
+
+.weibo{
+	color: rgb(245,114,130);
+	background-image: url(../../images/weibo.png);
+	background-repeat: no-repeat;
+	
+}
+
+.phone{
+	color: rgb(245,114,130);
+	background-image: url(../../images/phone.png);
+	background-repeat: no-repeat;
+}
+
+.location{
+	color: rgb(245,114,130);
+	background-image: url(../../images/location.png);
+	background-repeat: no-repeat;
+}
+
+a.email:link {color: grey}
+a.email:visited {color: black}
+a.email:hover {color: white}
+a.email:active {color: grey}

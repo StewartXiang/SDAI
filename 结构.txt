@@ -1,0 +1,53 @@
+SDAI/
+	-index.html *
+	science/
+		-history.html *
+		-pathology.html *
+	quiz/
+		-quiz1.html
+		-quiz2.html
+	bookshelf/
+		-shelf.html
+		-sex.html
+		-blood.html
+		-baby.html
+	elimination/
+		-elimination.html
+		-stories.html
+	extensions/
+		-contact.html *
+		-thanks.html
+		-others.html
+		-status.html
+	static/
+		css/
+			-base.css
+			science/
+				-history.css
+				-pathology.css
+			quiz/
+				-quiz1.css
+				-quiz2.css
+			bookshelf/
+				-sex.css
+				-blood.css
+				-baby.css
+			elimination/
+				-elimination.css
+				-stories.css
+			extensions/
+				-contact.css
+				-thanks.css
+				-others.css
+				-status.css
+		js/
+			-index.js
+			-common.js
+			-base.js
+			-vue.js
+			-jquery-3.3.1.js
+		images/
+			-...
+		fonts/
+			-...
+

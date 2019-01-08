@@ -31,8 +31,7 @@ var my_header = {
 			<img id="my_logo" src="../static/images/logo.png">
 			<div id="guider">
 				<div class="guide">
-					<span 
-					v-for ="(link, name, index) in n_l">
+					<span v-for="(link, name, index) in n_l">
 						<span>&nbsp;&nbsp;&nbsp;</span>
 						<a class="navigation1"
 						   v-bind:href="link" 
@@ -48,12 +47,12 @@ var my_header = {
 	</div>
 	`
 }
-console.log(my_links.length);
+
 var my_bread_link = {};
 for(var n=0; n<my_links.length; n++){
 	my_bread_link[my_links[n]]=bread_link[my_links[n]];
-	console.log(n);
 }
+
 var my_bread = {
 	data: function(){
 		return{
