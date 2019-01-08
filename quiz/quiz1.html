@@ -1,46 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>病名为艾</title>
+	<title>病名为艾:quiz</title>
 	<meta charset="utf-8"/>
-	<link href="quiz1.css" rel="stylesheet" type="text/css">
-	
+	<script src="../static/js/vue.js"></script>
+	<link href="../static/css/base.css" rel="stylesheet" type="text/css">
+	<link href="../static/css/quiz/quiz1.css" rel="stylesheet" type="text/css"/>
 </head>
 <body ondragstart="return false">
-	<div style="border-style: solid;border-width: 0px 0px 4px;border-color: #F7B5AB;width: 100%">
-		<div id="my_header">
-			<img id="my_logo" src="images/logo.png">
-			<div id="footer">
-				<div class="guide">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<a class="navigation1" href="http://www.baidu.com" target="_blank">首页</a>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-					<a class="navigation1" href="http://www.baidu.com" target="_blank">联系我们</a>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-					<a class="navigation1" href="http://www.baidu.com" target="_blank">其他网站推荐</a>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-					<a class="navigation1" href="http://www.baidu.com" target="_blank">感谢</a>
-				</div>
-			</div>
-		</div>	
+	<div style="">
 	</div>
-	<div id="my_main">
-		<div class="breadcrum">
-			<a class="navigation" href="http://www.baidu.com" target="_blank">首页》预防的小quiz</a>
-			<!-- other bread
-			》
-			<a class="navigation" href="http://www.baidu.com" target="_blank">预防的小quiz</a>
-			》
-			<a class="navigation" href="http://www.baidu.com" target="_blank">书架</a>
-			-->
-		</div>
-		<div id="my_body">
+	<div id="its_body">
+		<headerrr></headerrr>
+		<breaddd></breaddd>
+		<div id="my_body" style="border-style: solid;border-width: 0px 0px 4px;border-color: #F7B5AB;width: 100%; height:800px">
 			<div class="quizno1"><h1>以下哪个泡泡可能不会携带病毒？</h1></div>
 			<div class="bluebb1">公用牙刷</div>
 			<div class="yellowbb">野生动物挠你</div>
 			<div class="bluebb2"><button id="ans">蚊虫叮咬</button></div>
 			<div class="redbb">HIV准妈妈<br>的宝宝</div>
 		</div>
+		<footerrr></footerrr>
 	</div>
 
 	<script type="text/javascript">
@@ -50,6 +30,11 @@
 			window.location.href="quiz2.html";
 		}
 	</script>
+	<script type="text/javascript">
+		// bread list
+	</script>
+	<script src="../static/js/common.js"></script>
+	<script src="../static/js/base.js"></script>
 
 </body>
 </html>

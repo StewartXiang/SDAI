@@ -1,0 +1,87 @@
+
+button{
+background: none;
+border:none;
+font-size: 48px;
+}
+
+
+
+.quizno1{
+	margin: 0px 0 0 100px;
+	padding-top: 20px;
+	background-image: url(../../images/quizno1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: left;
+	width: 1000px;
+	height: 163px;
+	font-size: 32px;
+}
+
+.bluebb1{
+	background-image: url(../../images/bbblue.png);
+	background-repeat: no-repeat;
+	width: 247px;
+	height: 242px;
+	text-align: center;
+	font-size: 60px;
+	padding-top: 80px;
+	margin: 30px 0 0 80px;
+	float: left;
+}
+
+.yellowbb{
+	background-image: url(../../images/bbyellow.png);
+	background-repeat: no-repeat;
+	width: 341px;
+	height: 341px;
+	text-align: center;
+	font-size: 60px;
+	padding-top: 90px;
+	margin: 0 0 0 80px;
+	float: left;
+
+}
+
+.bluebb2{
+	background-image: url(../../images/bbblue.png);
+	background-repeat: no-repeat;
+	width: 255px;
+	height: 255px;
+	left: 700px;
+	top: 380px;
+	text-align: center;
+	font-size: 60px;
+	padding-top: 80px;
+	margin: 150px 0 0 80px;
+	position: absolute;
+}
+
+.redbb{
+	background-image: url(../../images/bbred.png);
+	background-repeat: no-repeat;
+	width: 417px;
+	height: 417px;
+	margin: -50px 0 0 200px;
+	padding-top: 150px;
+	text-align: center;
+	font-size: 60px;
+	float: left;
+
+}
+
+
+a.navigation1:link {color: grey}
+a.navigation1:visited {color: black}
+a.navigation1:hover {color: white}
+a.navigation1:active {color: grey}
+a.navigation:link {color: grey}
+a.navigation:visited {color: black}
+a.navigation:hover {color: white}
+a.navigation:active {color: lightgrey}
+
+.my_body{
+	position: relative;
+	width: 1366px;
+}
