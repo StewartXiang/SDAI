@@ -22,8 +22,9 @@ font-size: 48px;
 .bluebb1{
 	background-image: url(../../images/bbblue.png);
 	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	width: 247px;
-	height: 242px;
+	height: 162px;
 	text-align: center;
 	font-size: 60px;
 	padding-top: 80px;
@@ -34,8 +35,9 @@ font-size: 48px;
 .yellowbb{
 	background-image: url(../../images/bbyellow.png);
 	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	width: 341px;
-	height: 341px;
+	height: 251px;
 	text-align: center;
 	font-size: 60px;
 	padding-top: 90px;
@@ -47,10 +49,11 @@ font-size: 48px;
 .bluebb2{
 	background-image: url(../../images/bbblue.png);
 	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	width: 255px;
-	height: 255px;
+	height: 175px;
 	left: 700px;
-	top: 380px;
+	top: 170px;
 	text-align: center;
 	font-size: 60px;
 	padding-top: 80px;
@@ -61,8 +64,9 @@ font-size: 48px;
 .redbb{
 	background-image: url(../../images/bbred.png);
 	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	width: 417px;
-	height: 417px;
+	height: 267px;
 	margin: -50px 0 0 200px;
 	padding-top: 150px;
 	text-align: center;
