@@ -1,0 +1,60 @@
+		.content{
+			height: 355px;
+			width:1366px;
+		}
+
+		.sex{
+			height: 355px;
+			width:362px;
+			background-image: url(../../images/sex.png);
+			background-repeat: no-repeat;
+			float: left;
+			margin: 0 60px 0 80px;
+			padding-top: 35px;
+			padding-left: 25px;
+		}
+
+		.blood{
+			height: 328px;
+			width:369px;
+			background-image: url(../../images/blood.png);
+			background-repeat: no-repeat;
+			float: left;
+			margin-right:40px; 
+			padding-top: 35px;
+			padding-left: 30px;
+		}
+		.child{
+			height: 298px;
+			width:356px;
+			background-image: url(../../images/child.png);
+			float: left;
+			background-repeat: no-repeat;
+			padding-top: 35px;
+			padding-left: 30px;
+			
+		}
+
+		.content p{
+			margin-top: 43px;
+			text-align: center;
+			font-size: 50px;
+		}
+		.clear {
+		    clear:both;/*主要使用这个属性来清除浮动*/
+  }
+
+
+		.footer{
+			/*height: 355px;*/
+			width:700px;
+			text-align: center;
+			float: right;
+			font-size: 50px;
+		}
+
+a{text-decoration: none;}
+a.content:link {color: grey}
+a.content:visited {color: black}
+a.content:hover {color: grey}
+a.content:active {color: rgb(255,2,83)}
