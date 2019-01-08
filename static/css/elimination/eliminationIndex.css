@@ -1,0 +1,65 @@
+		.content{
+			height: 260px;
+			width: 1366px;
+			position:relative;
+
+		}
+
+		.cloud{
+			height:330px;
+			width: 770px;
+			background: url(../../images/cloud1.png);
+			position:absolute;
+            margin-top:0px;     /*这里是小盒子高的一半*/
+            margin-left: 330px;    /*这里是小盒子宽的一半*/
+		}
+		.cloud img{
+			margin-top: 30px;
+			margin-left: 120px;
+		}
+
+		.notes{
+			height: 1000px;
+			width: 1366px;
+		}
+
+		.note{
+			height: 380px;
+			width: 330px;
+			background: url(../../images/notes.png);
+
+		}
+		.note p{
+			width: 330px;
+			font-size: 40px;
+			font-family: "AaWanWan";
+			text-align: center;
+		}
+
+		.content p{
+			text-align: center;
+			font-size: 50px;
+		}
+		.clear {
+		    clear:both;/*主要使用这个属性来清除浮动*/
+  }
+
+
+		.footer{
+			height: 355px;
+			width:700px;
+			text-align: center;
+			float: right;
+			font-size: 50px;
+		}
+
+a{text-decoration: none;}
+a.content:link {color: grey}
+a.content:visited {color: black}
+a.content:hover {color: grey}
+a.content:active {color: rgb(66,134,241)}
+
+a.note:link {color: grey}
+a.note:visited {color: rgb(77,36,134);}
+a.note:hover {color: grey}
+a.note:active {color: rgb(66,134,241)}

@@ -1,43 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>病名为爱</title>
+	<title>病名为艾</title>
 	<meta charset="utf-8"/>
-	<link href="../css/base.css" rel="stylesheet" type="text/css">
-	<link href="eliminationindex.css" rel="stylesheet" type="text/css">
-	<!-- add other css -->
+	<script src="../static/js/vue.js"></script>
+	<link href="../static/css/base.css" rel="stylesheet" type="text/css"/>
+	<link href="../static/css/elimination/elimination.css" rel="stylesheet" type="text/css"/>
 </head>
 <body ondragstart="return false">
-	<div style="border-style: solid;border-width: 0px 0px 4px;border-color: #F7B5AB;width: 100%">
-		<div id="my_header">
-			<img id="my_logo" src="../static/logo.png">
-			<div id="footer">
-				<div class="guide">
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<a class="navigation1" href="../index.html" target="_blank">首页</a>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-					<a class="navigation1" href="../contact/contact.html" target="_blank">联系我们</a>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-					<a class="navigation1" href="../otherweb/otherweb.html" target="_blank">其他网站推荐</a>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-					<a class="navigation1" href="../thanks/thanks.html" target="_blank">感谢</a>
-				</div>
-			</div>
-		</div>	
-	</div>
-	<div id="my_main">
-		<div class="breadcrum">
-			<a class="navigation" href="http://www.baidu.com" target="_blank">首页</a>
-			》
-			<a class="navigation" href="http://www.baidu.com" target="_blank">消除歧视</a>
-		</div>
-		<div id="my_body">
+		<div id="its_body">
+		<headerrr></headerrr>
+		<breaddd></breaddd>
+		<div id="my_body" style="height: 1400px">
 			<div class="content">
-				<div class="cloud"><img src="images/cp.gif"></div>
+				<div class="cloud"><img src="../static/images/cp.gif"></div>
 			</div>
 
-		<div class="notes">
-			<table align="center" cellspacing="110">
+			<div class="notes">
+				<table align="center" cellspacing="110">
 				<tr>
 			  		<td><div class="note"><a class="note" href="../status404.html" target="_new"><p><br><br><br>认清歧视的故事</p></a></div></td>
 			  		<td><div class="note"><a class="note"href="../status404.html" target="_new"><p><br><br><br>职业暴露的故事</p>
@@ -49,10 +29,16 @@
 			  		<td><div class="note"><a class="note" href="../status404.html" target="_new"><p><br><br><br>和歧视和解的故事</p></a></div></td>
 			  		<td><div class="note"><a class="note" href="../status404.html" target="_new"><p><br><br><br>其他</p></a></div></td>
 				</tr>
-			</table>
+				</table>
+			</div>
 		</div>
-		
-		</div>
+		<footerrr></footerrr>
 	</div>
+	<script type="text/javascript">
+		// bread list
+		var my_links = ["首页", "消除歧视"]
+	</script>
+	<script src="../static/js/common.js"></script>
+	<script src="../static/js/base.js"></script>
 </body>
 </html>

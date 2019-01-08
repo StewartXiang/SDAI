@@ -1,13 +1,3 @@
-body{
-		font-family: "AaWanWan";
-		background: url(images/bgimage.png);
-		width: 1400px;
-		height: 768px;
-		margin: 0;
-		border: 0;
-		padding: 0;
-	}
-
 		.content{
 			height: 260px;
 			width: 1366px;
@@ -18,7 +8,7 @@ body{
 		.cloud{
 			height:330px;
 			width: 770px;
-			background: url(images/cloud1.png);
+			background: url(../../images/cloud1.png);
 			position:absolute;
             margin-top:0px;     /*这里是小盒子高的一半*/
             margin-left: 330px;    /*这里是小盒子宽的一半*/
@@ -36,7 +26,7 @@ body{
 		.note{
 			height: 380px;
 			width: 330px;
-			background: url(images/notes.png);
+			background: url(../../images/notes.png);
 
 		}
 		.note p{
@@ -73,14 +63,3 @@ a.note:link {color: grey}
 a.note:visited {color: rgb(77,36,134);}
 a.note:hover {color: grey}
 a.note:active {color: rgb(66,134,241)}
-
-a.navigation1:link {color: grey}
-a.navigation1:visited {color: black}
-a.navigation1:hover {color: white}
-a.navigation1:active {color: grey}
-
-a.navigation:link {color: grey}
-a.navigation:visited {color: black}
-a.navigation:hover {color: white}
-a.navigation:active {color: lightgrey}
-
