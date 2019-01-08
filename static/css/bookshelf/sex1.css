@@ -1,0 +1,98 @@
+.small_font{
+	font-size: 30px;
+}
+.big_font{
+	font-size: 40px;
+}
+#my_book{
+	width: 1286px;
+	padding: 1px 80px 80px 0px;
+	background-color: #ffffff;
+}
+#my_paper{
+	background-color: #ffffff;
+	background-image: url(../../images/paper.png);
+	background-size: 100% 30px;
+	width: 1206px;
+	padding-bottom: 100px;	
+	padding-top: 40px;
+	margin-left: 80px;
+	margin-top: 60px;
+	/*margin-bottom: 80px;*/
+	/*
+	border-width: 70px 80px 60px 80px;
+	border-style: solid;
+	border-color: #ffffff;
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	left: 0px;*/
+}
+#summary1{
+	width: 540px;
+	background-image: url(../../images/highlight1.png);
+	background-size: 100% 100%;
+	font-size: 40px;
+	/*padding-top: 40px;*/
+}
+#first_block{
+	display: inline-block;
+}
+#next_block{
+	margin-top: 20px; 
+	width: 540px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 120px;
+}
+#para1{
+	width: 300px;
+	font-size: 30px;
+	padding-left: 40px;
+	vertical-align: top;
+}
+#summary2{
+	margin-top: 160px;
+	margin-left: 25px;
+	height: 60px;
+	padding-top: 10px;
+	font-size: 40px;
+	background-image: url(../../images/highlight2.png);
+	background-size: 100% 100%;
+}
+#papapa{
+	vertical-align: middle;
+}
+#para2{
+	width: 200px;
+	margin-left: 50px;
+	font-size: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+#page_o{
+	/*padding-top: 60px;*/
+	width: 1262px;
+	height: 70px;
+	position: absolute;
+	top: 720px;
+	padding: 0 50px;
+}
+#next{
+	width: 180px;
+	height: 90px;
+	background-image: url(../../images/next.png);
+	background-size: 100% 100%;
+	background-color: unset;
+	float: right;
+	font-size: 35px;
+	margin-right: 50px;
+}
+
+#png{
+	padding-left: 70px;
+}
+
+#png2{
+	padding-left: -30px;
+}
