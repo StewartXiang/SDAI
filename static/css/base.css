@@ -81,17 +81,19 @@ a.navigation:visited {color: black}
 a.navigation:hover {color: white}
 a.navigation:active {color: lightgrey}
 .breadcrum{
-	background-image: url(../images/breadcrum.png);
+	/*background-image: url(../images/breadcrum.png);*/
 	height: 30px;
+	width: 1366px;
+	margin: 5px auto;
 	background-repeat: no-repeat;
 	text-align: left;
-	margin: 40px 0 20px 50px;
+	/*margin: 40px 0 20px 50px;*/
 	padding: 5px;
 	border:0;
 	font-size: 25px;
-	background-size: 100% 100%;
+	/*background-size: 100% 100%;*/
 	/*this is to be changed by yourself*/
-	width: 200px;
+	/*width: 200px;*/
 }
 #my_body{
 	position: relative;
