@@ -1,5 +1,5 @@
 #my_nf{
-	background-image: url(../static/bg404.png);
+	background-image: url(../../images/bg404.png);
 	background-repeat: no-repeat;
 	background-position: 800px 100px;
 	/*width: 1366px;*/
@@ -22,7 +22,7 @@
 	font-size: 55px;
 	background-color: unset;
 	vertical-align: middle;
-	background-image: url(../static/buttom.png);
+	background-image: url(../../images/buttom.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
