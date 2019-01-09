@@ -19,7 +19,7 @@ font-size: 48px;
 }
 
 .bb1{
-	background-image: url(../../images/bbyellow.png);
+	background-image: url(../../images/bubble_y.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	width: 352px;
@@ -29,10 +29,11 @@ font-size: 48px;
 	padding-top: 120px;
 	margin: 30px 0 0 80px;
 	float: left;
+	opacity: 0.8;
 }
 
 .bb2{
-	background-image: url(../../images/bbred.png);
+	background-image: url(../../images/bubble_r.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	width: 264px;
@@ -42,26 +43,28 @@ font-size: 48px;
 	padding-top: 90px;
 	margin: 0 0 0 -50px;
 	float: left;
+	opacity: 0.9;
 
 }
 
 .bb3{
-	background-image: url(../../images/bbblue.png);
+	background-image: url(../../images/bubble_b.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	width: 284px;
 	height: 194px;
-	left: 700px;
+	left: 600px;
 	top: 120px;
 	text-align: center;
 	font-size: 60px;
 	padding-top: 90px;
 	margin: 150px 0 0 80px;
 	position: absolute;
+	opacity: 0.8;
 }
 
 .bb4{
-	background-image: url(../../images/bbred.png);
+	background-image: url(../../images/bubble_r.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	width: 375px;
@@ -71,6 +74,7 @@ font-size: 48px;
 	text-align: center;
 	font-size: 60px;
 	float: left;
+	opacity: 0.85;
 
 }
 
