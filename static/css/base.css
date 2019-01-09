@@ -1,7 +1,6 @@
 @font-face {
   	font-family: "AaWanWan";   /*字体名称*/
   	src: url("../ttf/night.TTF") format("truetype");       /*字体源文件*/
-
 }
 * {
 	margin: 0px;
@@ -17,7 +16,10 @@ body{
 }
 img{
 }
-a{text-decoration: none;}
+a{
+	text-decoration: none;
+	: #999999;
+}
 #my_main{
 	
 	width: 1366px;
@@ -55,7 +57,7 @@ a{text-decoration: none;}
 }
 #guider{
 	float: right;
-	width: 1000px;
+	width: 900px;
 	margin-top: 10px;
 }
 .guide{
@@ -65,21 +67,21 @@ a{text-decoration: none;}
 	margin-top: 20px;
 	margin-left: 200px;
 	border:0;
-	padding-top: 8px;
+	padding-top: 16px;
 	padding-bottom: 5px;
 	font-size: 23px;
-	width: 800px;
+	width: 700px;
 	height: 45px;
 	background-size: 100% 100%;
 }
-a.navigation1:link {color: grey}
-a.navigation1:visited {color: black}
-a.navigation1:hover {color: white}
-a.navigation1:active {color: grey}
-a.navigation:link {color: grey}
-a.navigation:visited {color: black}
-a.navigation:hover {color: white}
-a.navigation:active {color: lightgrey}
+.navigation1:link {color: grey}
+.navigation1:visited {color: grey}
+.navigation1:hover {color: white}
+.navigation1:active {color: grey}
+.navigation:link {color: grey}
+.navigation:visited {color: grey}
+.navigation:hover {color: white}
+.navigation:active {color: lightgrey}
 .breadcrum{
 	/*background-image: url(../images/breadcrum.png);*/
 	height: 30px;
