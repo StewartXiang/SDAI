@@ -4,20 +4,20 @@ SDAI/
 		-history.html *
 		-pathology.html *
 	quiz/
-		-quiz1.html
-		-quiz2.html
+		-quiz1.html *
+		-quiz2.html *
 	bookshelf/
-		-shelf.html
+		-shelf.html *
 		-sex.html
 		-blood.html
 		-baby.html
 	elimination/
-		-elimination.html
+		-elimination.html *
 		-stories.html
 	extensions/
 		-contact.html *
-		-thanks.html
-		-others.html
+		-thanks.html *
+		-others.html *
 		-status.html
 	static/
 		css/
@@ -26,7 +26,7 @@ SDAI/
 				-history.css
 				-pathology.css
 			quiz/
-				-quiz1.css*
+				-quiz1.css
 				-quiz2.css
 			bookshelf/
 				-sex.css

@@ -27,6 +27,7 @@ var i = new Vue({
 	el:"#its_body",
 	components: {
 		"headerrr": my_header,
+		"breaddd": my_bread,
 		"footerrr": my_footer
 	}
 })

@@ -61,7 +61,7 @@ var my_bread = {
 		}
 	},
 	template:`
-		<div class="breadcrum">
+		<div v-if="my_link" class="breadcrum">
 			<span v-for="(link, name, index) in n_l">
 				<a class="navigation" v-bind:href="link">{{name}}</a>
 				<span v-if="index<my_link.length-1">》</span>
@@ -69,10 +69,3 @@ var my_bread = {
 		</div>
 	`
 }
-
-var i = new Vue({
-	el:"#its_body",
-	components: {
-		"breaddd": my_bread
-	}
-})
