@@ -1,16 +1,44 @@
+h6{
+	font-size: 20px;
+	text-align: center;
+	color: grey;
+}
 
-
-		h6{
-			font-size: 20px;
-			text-align: center;
-			color: grey;
-		}
-
+#tip1{
+	text-align: center;
+	font-size: 20px;
+	width: 250px;
+	position: absolute;
+	right: 200px;
+	top: 500px;
+}
+#tip2{
+	text-align: center;
+	font-size: 20px;
+	width: 250px;
+	position: absolute;
+	left: 250px;
+	top: 1050px;
+}#tip3{
+	text-align: center;
+	font-size: 20px;
+	width: 250px;
+	position: absolute;
+	right: 200px;
+	top: 1130px;
+}#tip4{
+	text-align: center;
+	font-size: 20px;
+	width: 250px;
+	position: absolute;
+	left: 270px;
+	top: 1600px;
+}
 
 
 /*这里是内容的大div*/
 		.content{
-			height: 2000px;
+			height: 1700px;
 			width:1366px;
 		}
 /*标题栏*/
@@ -60,7 +88,7 @@
 /*第一部分*/
 		.part1{
 			width: 1366px;
-			height: 338px;
+			height: 300px;
 			margin-top: 50px;
 		}
 
@@ -94,7 +122,7 @@
 /*第二部分*/
 		.part2{
 			width: 1366px;
-			height: 523px;
+			height: 500px;
 			margin-top: 70px;
 		}
 
@@ -127,7 +155,7 @@
 			background-image: url(../../images/part2_pic3.png);
 			background-repeat: no-repeat;
 			float: left;
-			margin: 130px 0 0 310px;
+			margin: 150px 0 0 310px;
 		}
 
 		.part2_note1{
@@ -135,7 +163,7 @@
 			height: 110px;
 			position: absolute;
 			left:100px ;
-			top:650px;
+			top:580px;
 		}
 
 		.part2_note2{
@@ -143,7 +171,7 @@
 			height: 103px;
 			position: absolute;
 			left:370px ;
-			top:680px;
+			top:600px;
 		}
 
 		.part2_note3{
@@ -151,14 +179,15 @@
 			height: 103px;
 			position: absolute;
 			left:883px ;
-			top:880px;
+			top:800px;
 		}
 
 /*第三部分*/
 		.part3{
+			padding-top: 50px;
 			width: 1366px;
-			height: 440px;
-			margin-top: 200px;
+			height: 400px;
+			margin-top: 100px;
 		}
 		
 		.part3 p{
@@ -173,7 +202,7 @@
 			background-image: url(../../images/part3_pic1.png);
 			background-repeat: no-repeat;
 			float: left;
-			margin-top: 100px;
+			margin-top: 0px;
 			margin-left: 134px;
 		}
 
@@ -182,7 +211,7 @@
 			height: 285px;
 			background-image: url(../../images/part3_pic2.png);
 			background-repeat: no-repeat;
-			margin-top: 100px;
+			margin-top: 0px;
 			margin-left: 40px;
 			float: left;
 		}
@@ -193,7 +222,7 @@
 			background-image: url(../../images/part3_pic3.png);
 			background-repeat: no-repeat;
 			float: left;
-			margin-top: 100px;
+			margin-top: 0px;
 			margin-left: 30px;
 		}
 
@@ -202,7 +231,7 @@
 			height: 103px;
 			position: absolute;
 			left:75px ;
-			top:1350px;
+			top:1180px;
 		}
 
 		.part3_note2{
@@ -210,7 +239,7 @@
 			height: 102px;
 			position: absolute;
 			left:300px ;
-			top:1350px;
+			top:1180px;
 		}
 
 		.part3_note3{
@@ -218,7 +247,7 @@
 			height: 102px;
 			position: absolute;
 			left:500px ;
-			top:1350px;
+			top:1180px;
 		}
 
 
