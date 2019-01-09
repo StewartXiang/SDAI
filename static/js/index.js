@@ -27,8 +27,7 @@ var my_header = {
 					v-for ="(link, name, index) in n_l">
 						<span>&nbsp;&nbsp;&nbsp;</span>
 						<a class="navigation1"
-						   v-bind:href="link" 
-						   target="_blank">
+						   v-bind:href="link" >
 							{{name}}
 						</a>
 						<span v-if="index<5">&nbsp;&nbsp;&nbsp;|</span>
