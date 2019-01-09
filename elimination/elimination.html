@@ -60,6 +60,7 @@
 	</script>
 	<script src="../static/js/common.js"></script>
 	<script src="../static/js/base.js"></script>
+	<script src="../static/js/elimination.js"></script>
 
 
 
@@ -70,16 +71,34 @@
 		var oBg=document.getElementById('bg');
 		var oCont=document.getElementById('cont');
 		var oClose=document.getElementById('close');
-
-		oNote.onclick=function(){
+		function open() {
+			// body...
 			oBg.style.display='block';
 			oCont.style.display='block';
 			document.getElementById('its_body').style=('filter:blur(10px);position:fixed');
 		}
-		oClose.onclick=function() {
+		function close() {
+			// body...
 			oBg.style.display='none';
 			oCont.style.display='none';
 			document.getElementById('its_body').style=('filter:none');
+		}
+
+		//this is to be added 
+
+		oNote.onclick=function(){
+			document.getElementsByClassName('text')[0].innerHTML=my_passage1;
+			open();
+		}
+		oNote2.onclick=function(){
+			document.getElementsByClassName('text')[0].innerHTML=my_passage2;
+			open();
+		}
+
+
+
+		oClose.onclick=function() {
+			close();
 		}
 	</script>
 
