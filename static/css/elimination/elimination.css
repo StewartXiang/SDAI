@@ -1,3 +1,48 @@
+		#bg{
+			display: none;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top:0;
+			left: 0;
+			background: rgba(255,255,255,0.8);
+			z-index: 100;
+		}
+		#cont{
+			display: none;
+			position: absolute;
+			top: 8%;
+			left: 35%;
+			z-index: 101;
+		}
+		#rec{
+			padding: 70px 30px 20px 30px;
+			margin-top: 70px;
+			display: block;
+			background: url(../../images/notes.png) no-repeat;
+			background-size: 100%;
+			width: 410px;
+			height: 452px;
+			text-align: center;
+			overflow: scroll;
+		}
+		#close{
+			position: absolute;
+			right: -38px;
+			top: 0;
+			background-image: url(../../images/close.png);
+			background-repeat: no-repeat;
+			background-size: 100%;
+			width: 70px;
+			height: 70px;
+			cursor: pointer;
+		}
+
+
+
+
+
+
 		.content{
 			height: 260px;
 			width: 1366px;
