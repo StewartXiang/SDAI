@@ -1,2 +1,5 @@
-var my_passage2 = `如果皮肤接触到受污染的血液的感染率则低于0.1%。少量血液短时间接触健康皮肤基本是不会感染的，除非皮肤上有伤口。<br>要消除对HIV感染者和艾滋病患者的歧视，`
-var my_passage1 = `66666666666666666666666666`
+var my_passage1 = `这个是1`;
+var my_passage2 = `2，记得排版`;
+var my_passage3 = `3`;
+var my_passage4 = `4`;
+var my_passage5 = `5`;
