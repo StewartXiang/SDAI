@@ -6,36 +6,37 @@
 	<script src="../static/js/vue.js"></script>
 	<link href="../static/css/base.css" rel="stylesheet" type="text/css"/>
 	<link href="../static/css/bookshelf/sex1.css" rel="stylesheet" type="text/css"/>
+	<link rel="icon" href="../static/images/icon.ico" type="image/x-icon" />
 </head>
 <body ondragstart="return false">
 <div  id="its_body">
 	<headerrr></headerrr>
-	<breaddd></breaddd>
 	<div id="my_body">
-			<div id="my_book">
+			<div id="my_book"><!-- 
 				<div class="breadcrum">
 					<a class="navigation" href="http://www.baidu.com" target="_blank">首页</a>
-					<!-- other bread
-					》
-					<a class="navigation" href="http://www.baidu.com" target="_blank">预防的小quiz</a>
-					》
-					<a class="navigation" href="http://www.baidu.com" target="_blank">书架</a>
-					-->
-				</div>
-
+				</div> -->
+				<breaddd></breaddd>
 				<div id="my_paper">
 					<div id="first_block">
 						<div id="summary1" class="big_font">啪啪啪的时候无论如何一定要带避孕套！</div>
 						<div id="para1" class="small_font">HIV病毒大量存在于感染者的精液或阴道分泌物中，而啪啪啪的时候会摩擦摩擦，很容易使皮肤破损，病毒就会从伤口处溜进你的身体-_-</div>
 					</div>
 					<div id="next_block">
-						<div id="summary2" class="big_font">千万不要抱有侥幸心理！！！</div>
+						<div id="summary2" class="big_font">千万不要抱有侥幸心理！</div>
 						<img src="images/papapa.png" id="papapa"/>
 						<div id="para2" class="small_font">这些都是不幸感染HIV的血泪史啊！</div>
 					</div>
+					<img src="../static/images/dialog1.png" id="dialog1">
+					<img src="../static/images/dialog2.png" id="dialog2">
+					<img src="../static/images/dialog3.png" id="dialog3">
+					<img src="../static/images/dialog4.png" id="dialog4">
+					<img src="../static/images/virus.png" id="virus1">
+					<img src="../static/images/virus.png" id="virus2">
+					<img src="../static/images/btt.png" id="btt">
 				</div>
 				<div id="page_o">
-					<button id="next" class="small_font">下一页</button>
+					<button id="next" class="small_font" onclick="window.location.href='sex2.html';">下一页</button>
 				</div>
 			</div>
 	</div>
@@ -43,8 +44,10 @@
 </div>
 	<script type="text/javascript">
 		// bread list
+		var my_links=["首页","预防","性传播"]
 	</script>
 	<script src="../static/js/common.js"></script>
 	<script src="../static/js/base.js"></script>
 </body>
 </html>
+
