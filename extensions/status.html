@@ -6,6 +6,7 @@
 	<script src="../static/js/vue.js"></script>
 	<link href="../static/css/base.css" rel="stylesheet" type="text/css"/>
 	<link href="../static/css/extensions/status.css" rel="stylesheet" type="text/css"/>
+	<link rel="icon" href="../static/images/icon.ico" type="image/x-icon" />
 </head>
 <body ondragstart="return false">
 <div  id="its_body">
@@ -14,11 +15,11 @@
 		<div id="my_body" style="padding-bottom: 120px;">
 			<div id="my_nf">
 				<div id="first_line">
-					<div id="big_nf">404</div>
+					<div id="big_nf">{{num}}</div>
 					<button type="button" class="my_buttom" id="back" onclick="window.location.href='../index.html';">返回首页</button>
 					<button type="button" class="my_buttom" id="fresh" onclick="window.location.href='status.html';">再次刷新</button>
 				</div>
-				<div id="small_nf">PAGE NOT FOUND</div>
+				<div id="small_nf">{{discribe}}</div>
 			</div>
 			<!-- some thing -->
 		</div>
@@ -37,6 +38,7 @@
 		// bread list
 		var my_links=["首页", "没啥用的"]
 	</script>
+	<script src="../static/js/status.js"></script>
 	<script src="../static/js/common.js"></script>
 	<script src="../static/js/base.js"></script>
 </body>

@@ -77,8 +77,8 @@ a:active {color: lightgrey}
 	height: 45px;
 	background-size: 100% 100%;
 }
-.navigation1:link {color: grey}
-.navigation1:visited {color: grey}
+.navigation1:link {color: black}
+.navigation1:visited {color: black}
 .navigation1:hover {color: white}
 .navigation1:active {color: grey}
 .navigation:link {color: grey}
