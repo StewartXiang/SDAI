@@ -48,3 +48,24 @@ var my_header = {
 	`
 }
 
+var my_bread_link = {};
+for(var n=0; n<my_links.length; n++){
+	my_bread_link[my_links[n]]=bread_link[my_links[n]];
+}
+
+var my_bread = {
+	data: function(){
+		return{
+			n_l: my_bread_link,
+			my_link: my_links
+		}
+	},
+	template:`
+		<div v-if="my_link" class="breadcrum">
+			<span v-for="(link, name, index) in n_l">
+				<a class="navigation" v-bind:href="link">{{name}}</a>
+				<span v-if="index<my_link.length-1">》</span>
+			</span>
+		</div>
+	`
+}
