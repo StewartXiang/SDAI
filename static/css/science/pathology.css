@@ -53,7 +53,7 @@
 
 		.parttwo{
 			width: 1286px;
-			height: 1400px;
+			height: 1250px;
 
 			clear:both;
 			margin-top: 50px;
@@ -83,43 +83,44 @@
 		}
 
 		.parttwo_p2{
-			width: 213px;
-			height: 115px;
-			margin-top: 481px;
-			margin-left: 100px;
+			width: 220px;
+			height: 120px;
+			top: 1300px;
+			right: 80px;
 			text-align: left;
 			font-size: 25px;
-			float: left;
+			position: absolute;
 		}
 
 		.parttwo_p3{
-			width: 233px;
+			width: 280px;
 			height: 162px;
 			text-align: left;
 			font-size: 25px;
 			float: left;	
-			margin-top: 300px;		
+			top: 1600px;
+			left: 150px;
+			position: absolute;
 		}
 
 		.partthree{
 			height: 2300px;
 			width: 1286px;
 			clear:both;
-			margin-top: 50px;
 			margin-left: 50px;
 		}
 
 		.partthree_p1{
-
-			text-align: left;
+			width: 470px;
+			text-align: center;
 			font-size: 25px;
-			float: left;	
 			margin-top: 30px;
-			margin-left: 600px;
+			margin-left: 250px;
 		}
 
 		.partthree_p2{
 			text-align: left;
+			width: 400px;
 			font-size: 25px;
 			float: left;	
 			margin-top: 30px;
@@ -130,7 +131,7 @@
 			height: 2000px;
 			width: 1286px;
 			background-repeat: no-repeat;
-			margin-left: 50px;
+			margin-left: 0;
 			float: left;
 		}
 

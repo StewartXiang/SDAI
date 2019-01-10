@@ -9,7 +9,8 @@ var header_link = {
 var footer_link = {
 	"关于我们": "extensions/contact.html",
 	"友情链接": "extensions/others.html",
-	"感谢": "extensions/thanks.html"
+	"感谢": "extensions/thanks.html",
+	"彩蛋": "extensions/status.html"
 }
 var my_header = {
 	data: function () {

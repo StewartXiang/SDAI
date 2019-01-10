@@ -5,20 +5,20 @@ SDAI/
 		-pathology.html *
 	quiz/
 		-quiz1.html *
-		-quiz2.html *
+		-quiz2.html 
 	bookshelf/
 		-shelf.html *
-		-sex.html
-		-blood.html
-		-baby.html
+		-sex.html *
+		-blood.html *
+		-baby.html *
 	elimination/
 		-elimination.html *
-		-stories.html
+		-stories.html 
 	extensions/
 		-contact.html *
 		-thanks.html *
 		-others.html *
-		-status.html
+		-status.html *
 	static/
 		css/
 			-base.css

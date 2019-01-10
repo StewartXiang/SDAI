@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>病名为艾</title>
+	<meta charset="utf-8"/>
+	<script src="../static/js/vue.js"></script>
+	<link href="../static/css/base.css" rel="stylesheet" type="text/css"/>
+	<link href="../static/css/extensions/status.css" rel="stylesheet" type="text/css"/>
+	<link rel="icon" href="../static/images/icon.ico" type="image/x-icon" />
+</head>
+<body ondragstart="return false">
+<div  id="its_body">
+	<headerrr></headerrr>
+	<breaddd></breaddd>
+		<div id="my_body" style="padding-bottom: 120px;">
+			<div id="my_nf">
+				<div id="first_line">
+					<div id="big_nf">{{num}}</div>
+					<button type="button" class="my_buttom" id="back" onclick="window.location.href='../index.html';">返回首页</button>
+					<button type="button" class="my_buttom" id="fresh" onclick="window.location.href='status.html';">再次刷新</button>
+				</div>
+				<div id="small_nf">{{discribe}}</div>
+			</div>
+			<!-- some thing -->
+		</div>
+	<footerrr></footerrr>
+</div>
+	<script type="text/javascript">
+		var ans1 = document.getElementById("back");
+		ans1.onclick=function(){
+			window.location.href="index.html";
+		}
+		var ans2 = document.getElementById("fresh");
+		ans2.onclick=function(){
+			window.location.href="status.html";
+		}
+	</script><script type="text/javascript">
+		// bread list
+		var my_links=["首页", "没啥用的"]
+	</script>
+	<script src="../static/js/status.js"></script>
+	<script src="../static/js/common.js"></script>
+	<script src="../static/js/base.js"></script>
+</body>
+</html>

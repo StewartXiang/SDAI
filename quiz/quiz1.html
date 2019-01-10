@@ -7,6 +7,7 @@
 	<link href="../static/css/base.css" rel="stylesheet" type="text/css">
 	<link href="../static/css/quiz/quiz1.css" rel="stylesheet" type="text/css"/>
 	<link rel="icon" href="../static/images/icon.ico" type="image/x-icon" />
+	
 </head>
 <body ondragstart="return false">
 	
@@ -16,27 +17,34 @@
 		<div id="my_body" style="position: relative;height: 600px">
 			<div class="quizno1"><h1>以下哪个泡泡可能不会携带病毒？</h1></div>
 			<div class="bluebb1">公用牙刷</div>
-			<div class="yellowbb">野生动物<br>挠你</div>
-			<div class="bluebb2"><button id="ans" onclick="window.location.href='quiz2.html';">蚊虫叮咬</button></div>
+			<div class="yellowbb"><button onclick="alert1()">野生动物<br>挠你</button></div>
+			<div class="bluebb2" ><button onclick="window.location.href='quiz2.html'">蚊虫叮咬</button></div>
 			<div class="redbb">HIV准妈妈<br>的宝宝</div>
 		</div>
 		<footerrr></footerrr>
 	</div>
 
-	<script type="text/javascript">
-		var ans = document.getElementById("ans");
-		ans.onclick=function(){
-			console.log("hhhh")
-			alert("congratulations!");
-			window.location.href="quiz2.html";
-		}
-	</script>
+
 	<script type="text/javascript">
 		// bread list
 		var my_links = ["首页", "小问答"]
 	</script>
 	<script src="../static/js/common.js"></script>
 	<script src="../static/js/base.js"></script>
+	<script type="text/javascript">
+		var n;
+		var m;
+		function alert1(){
+			var n=1;
+		}
+		function alert2(){
+			var m=1;
+		}
+		if (m==1&&n==1) {
+			alert("congratulations!");
+			window.location.href="quiz2.html";
+		}
+	</script>
 
 </body>
 </html>
