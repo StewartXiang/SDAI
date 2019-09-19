@@ -33,7 +33,7 @@ var my_footer = {
 				<a v-bind:href="link">
 					{{name}}
 				</a>
-				<span v-if="index<3">&nbsp;&nbsp;&nbsp;|</span>
+				<span v-if="index<2">&nbsp;&nbsp;&nbsp;|</span>
 				<span v-else>&nbsp;&nbsp;&nbsp;</span>
 			</span>
 		</p>

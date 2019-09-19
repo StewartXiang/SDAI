@@ -7,7 +7,7 @@ var header_link = {
 	"小问答": "quiz/quiz1.html",
 };
 var footer_link = {
-	"关于我们": "extensions/contact.html",
+	// "关于我们": "extensions/contact.html",
 	"友情链接": "extensions/others.html",
 	"感谢": "extensions/thanks.html",
 	"彩蛋": "extensions/status.html"

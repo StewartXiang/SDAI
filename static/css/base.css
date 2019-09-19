@@ -1,6 +1,6 @@
 @font-face {
   	font-family: "AaWanWan";   /*字体名称*/
-  	src: url("../ttf/night.TTF") format("truetype");       /*字体源文件*/
+  	src: url("../fonts/one.TTF") format("truetype");       /*字体源文件*/
 }
 * {
 	margin: 0px;

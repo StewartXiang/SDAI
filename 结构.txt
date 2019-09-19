@@ -13,7 +13,7 @@ SDAI/
 		-baby.html *
 	elimination/
 		-elimination.html *
-		-stories.html 
+		-stories.html *
 	extensions/
 		-contact.html *
 		-thanks.html *
@@ -44,8 +44,12 @@ SDAI/
 			-index.js
 			-common.js
 			-base.js
+			-elimination.js
+			-status.js
+			-history.js
 			-vue.js
 			-jquery-3.3.1.js
+
 		images/
 			-...
 		fonts/
